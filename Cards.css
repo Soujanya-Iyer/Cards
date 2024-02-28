@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Courgette", cursive;
+}
+
+main{
+    display:flex;
+    justify-content: center;
+}
+
+section{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+div{
+    background-color: rgb(254, 224, 188);
+    width: 20%;
+    overflow: hidden;
+}
+
+img{
+    width: 100%;
+    height: 400px;
+    transition: 2s;
+}
+
+h3{
+    color: crimson;
+    font-size: 25px;
+    text-align: center;
+}
+
+button{
+    width: 100%;
+    height: 30px;
+    background-color:rgb(252, 202, 127);
+    border:none;
+    color:rgb(85, 85, 247);
+    font-size: 17px;
+}
+
+.cont{
+    width: 100%;
+    position: relative;
+}
+
+.title{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    display: none;
+}
+
+#img1:hover{
+    filter: blur(20px);
+}
+.cont:hover .title{
+    display: block;
+}
+
+#img2:hover{
+    transform: scale(1.2);
+}
+.cont:hover .title{
+    display: block;
+}
+
+#img3:hover{
+    opacity: 0;
+}
+.cont:hover .title{
+    display: block;
+}
+
+#img4:hover{
+    transform: rotate(360deg);
+}
+.cont:hover .title{
+    display: block;
+}
+
+
+
+
